@@ -1,0 +1,14 @@
+{
+  "name": "accounts-api",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^3.4.3"
+  },
+  "scripts": {
+    "dev": "cd packages/main && yarn dev"
+  },
+  "workspaces": ["packages/*"]
+}

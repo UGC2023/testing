@@ -1,0 +1,25 @@
+{
+  "name": "@api/ds-myapps",
+  "description": "GrAMPS Data Source: myapps",
+  "contributors": [
+    "Mostafa Sholkamy <shalkamm@gmail.com>"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "dev": "env-cmd .env.local nodemon -e js,graphql scripts/dev.js"
+  },
+  "dependencies": {
+    "@churro/graphql-binding": "syftchurro/graphql-binding",
+    "@churro/users-service": "git+https://33087a861988c7ef7ea7aed810a05eacec1c45f7@github.com/syftchurro/users-service.git",
+    "apollo-link-http": "^1.5.9",
+    "axios": "^0.18.0",
+    "graphql-import": "^0.7.1",
+    "node-fetch": "^2.3.0",
+    "nodemailer": "^4.6.8",
+    "qs": "^6.6.0"
+  },
+  "devDependencies": {
+    "@api/tools": "1.0.0"
+  },
+  "version": "0.0.0"
+}

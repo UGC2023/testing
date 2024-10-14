@@ -1,0 +1,16 @@
+{
+    "name": "@api/main",
+    "version": "0.0.0",
+    "main": "index.js",
+    "scripts": {
+        "dev": "env-cmd ./.env.local nodemon index.js"
+    },
+    "dependencies": {
+        "@gramps/gramps": "shalkam/gramps#with-dist",
+        "apollo-server-express": "^2.1.0",
+        "body-parser": "^1.18.3",
+        "express": "^4.16.4",
+        "graphql": "^14.0.2",
+        "cors": "^2.8.5"
+    }
+}
